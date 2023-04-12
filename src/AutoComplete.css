@@ -1,0 +1,39 @@
+/** @format */
+
+.auto-complete {
+	position: relative;
+	width: 300px;
+}
+
+.auto-complete input {
+	width: 100%;
+	padding: 8px;
+	font-size: 16px;
+}
+
+.suggestions {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	z-index: 100;
+}
+
+.suggestions li {
+	padding: 8px;
+	cursor: pointer;
+}
+
+.suggestions li:hover,
+.suggestions li.selected {
+	background-color: #eee;
+}
+
+.suggestions strong {
+	color: #2196f3;
+}
